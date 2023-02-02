@@ -1,3 +1,3 @@
 # Python_Programs
 
-All basic pythons programs are maintained in this repo
+All python OOPS programs are maintained in this repo
