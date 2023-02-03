@@ -3,6 +3,9 @@ class Person:
     def __init__(self,name):
         self.name = name
         
+    def intro(self):
+        print(f"Hi, This is {self.name}")
+        
     def talk(self):
         print(self.name + " can talk")
         
@@ -16,6 +19,7 @@ class Person:
         print(self.name + " can stand")
         
 person1 = Person("Shyam")
+person1.intro()
 person1.talk()
 person1.walk()
 person1.run()
