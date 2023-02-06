@@ -24,3 +24,4 @@ person1.talk()
 person1.walk()
 person1.run()
 person1.stand()
+
