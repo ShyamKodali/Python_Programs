@@ -1,5 +1,7 @@
 class Polygon:
+    
     # Initializing the number of sides
+    
     def __init__(self, no_of_sides):
         self.n = no_of_sides
         self.sides = [0 for i in range(no_of_sides)]
