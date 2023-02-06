@@ -20,13 +20,15 @@ class Female(HumanBeing):
     
     # Not to Override the Parent Class __init__() 
     
-    def __init__(self,f,l):
+    def __init__(self,f,l,ml):
         HumanBeing.__init__(self, f, l)
+        # Adding extra parameter other than f,l 
+        self.maritalsurname = ml
         
     def ChildBirth(self,b,g):
         self.babyboy = b
         self.babygirl = g
-        print(f'{self.fname} {self.lname} can give birth to {b} or {g} or both at a time')
+        print(f'{self.fname} {self.lname} {self.maritalsurname} can give birth to {b} or {g} or both at a time')
         
 # Inherited all properties from Parent Class without any addition of new properties 
         
@@ -56,7 +58,7 @@ Hum1.walk()
 
 # Object for 1st Child Class 
 
-Fem1 = Female("Samantha", "Ruth Prabhu")
+Fem1 = Female("Samantha", "Ruth Prabhu", "Akkineni")
 
 # Calling the method using Object created above 
 
