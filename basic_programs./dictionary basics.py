@@ -36,6 +36,8 @@ car.update({
   "model": "CX5",
   "year": 2015
 })
+car_details = {"color":"blue"}
+car.update(car_details)
 print(car)
 
 # Using pop method 
