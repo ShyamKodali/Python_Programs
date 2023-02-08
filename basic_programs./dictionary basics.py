@@ -10,6 +10,10 @@ car =	{
 
 print(car.get("model"))
 
+# Keys which are not defined (make) can get with default value using get method
+
+print(car.get("make","not_defined"))
+
 # Updating the value of key and Printing
 
 car["year"] = 2020
