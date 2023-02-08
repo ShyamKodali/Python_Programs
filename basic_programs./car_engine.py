@@ -7,6 +7,7 @@ started = False
 already_started = "Car already started... Accelerate to move the car!!"
 stop = "Car Stopped! Start agin!!"
 already_stopped = "Car already stopped... Please start the car!!"
+accelerate = "🚗💨💨💨💨💨💨💨💨💨💨💨"
 quit = "Good Bye! See you next time"
 help = '''
 start = To start the car.
@@ -35,6 +36,9 @@ while  True:
         else:
             strated = False
             print(stop)
+    
+    elif user_input == "accelerate":
+        print(accelerate)
             
     elif user_input == "help":
         print(help)
