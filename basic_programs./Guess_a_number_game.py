@@ -3,7 +3,7 @@ secret_number = 624
 welcome_text = 'Welcome to the Guess Game!'
 print(welcome_text.center(90))
 
-instructions = 'Enter a number from [1 to 9] in 3 chances'
+instructions = 'Enter a number from [1 to 9] in 3 chances to win the game!'
 print(instructions.center(90))
 
 guess_limit = 3
