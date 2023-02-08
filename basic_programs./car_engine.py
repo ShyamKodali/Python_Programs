@@ -5,8 +5,8 @@ print(welcome_note.center(90))
 start = "Car Started! Accelerate to GO!!"
 started = False
 already_started = "Car already started... Accelerate to move the car!!"
-stop = "Car Stopped! Start agin!!"
-already_stopped = "Car already stopped... Please start the car!!"
+stop = "Car Stopped! Accelerate to move the car!!"
+already_stopped = "Car has'nt started... Please start the car!!"
 accelerate = "🚗💨💨💨💨💨💨💨💨💨💨💨"
 quit = "Good Bye! See you next time"
 help = '''
@@ -15,10 +15,7 @@ stop = To stop the car.
 accelerate = To move the car.
 quit = To exit from the game.
 '''
-
-
-user_input = "" 
-
+    
 while  True:
     
     user_input = input(">> ").lower()
@@ -46,5 +43,5 @@ while  True:
     elif user_input == "quit":
         print(quit)
         break 
-else: 
-    print ("Sorry! I dont understand that please type 'help' to get options")
+    else: 
+        print ("Sorry! I dont understand that please type 'help' to get options")
