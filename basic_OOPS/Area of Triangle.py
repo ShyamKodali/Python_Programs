@@ -28,7 +28,8 @@ class Triangle(Polygon):
 
         # Using Heron's formula to calculate the area of the triangle
         area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
-        print('The area of the triangle is %0.2f' %area)
+        area = round(area,2)
+        print(f'The area of the triangle is {area}')
 
 # Creating an instance of the Triangle class
 t = Triangle()

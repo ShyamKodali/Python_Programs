@@ -12,8 +12,16 @@ class Cat(Animal):
         return "Meow!"
  
 # Create a list of Animal objects
-animals = [Dog(), Cat()]
+# animals = [Dog(), Cat()]
  
 # Call the speak method on each object
-for animal in animals:
-    print(animal.speak())
+# =============================================================================
+# for animal in animals:
+#     print(animal.speak())
+# =============================================================================
+    
+obj_dog = Dog()
+obj_cat = Cat()
+
+for i in (obj_dog,obj_cat):
+    print(i.speak())
