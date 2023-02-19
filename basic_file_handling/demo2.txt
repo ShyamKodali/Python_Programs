@@ -1,0 +1,1 @@
+Model - The data you want to present, usually data from a database.
