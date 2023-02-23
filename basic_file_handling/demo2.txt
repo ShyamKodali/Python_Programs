@@ -1,1 +1,1 @@
-Model - The data you want to present, usually data from a database.
+Model - The data you want to present, usually data from a database.View - A request handler that returns the relevant template and content - based on the request from the user.
