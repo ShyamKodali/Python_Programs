@@ -22,4 +22,6 @@ vertical_concat = pd.concat([df1, df2], axis=0)
 # Concatenating df3 and df4 along columns
 horizontal_concat = pd.concat([df3, df4], axis=1)
  
-print(vertical_concat, horizontal_concat)
+print(vertical_concat)
+print("*********************************") 
+print(horizontal_concat)
