@@ -90,27 +90,3 @@ print("***********************************************")
 print(df.iat[1, 2])
 print("***********************************************") 
 
-
-
-# Selecting all the rows of the dataframe
-# where the value of `col_2` is greater than 15 but not equal to 19
-
-print(df[(df['col_2'] > 15) & (df['col_2'] != 19)])
-print("***********************************************") 
-
-
-# Selecting all the rows of the dataframe where the value of `col_2` is greater than 15
-# or the value of `col_5` is equal to 42
-
-
-print(df[(df['col_2'] > 15) | (df['col_5'] == 42)])
-print("***********************************************") 
-
-
-
-
-
-
-
-
-
