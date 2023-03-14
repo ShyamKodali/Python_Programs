@@ -19,8 +19,15 @@ for i in range(len(data)):
         Type_new[i]= data["Type"][i]
  
          
-# inserting new column with values of list made above       
+# Inserting new column with values of list made above using for loop
 data.insert(2, "Type New", Type_new)
  
 # list output
-print(data.head())
+print(data)
+print("*************************************")
+
+# Inserting new column with values of list 
+data.insert(3, "Power", [340,420,323,378,392])
+
+# list output
+print(data)
