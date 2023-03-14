@@ -9,15 +9,15 @@ df = pd.DataFrame(data)
 
 # Sorting by Brand in Ascending Order (Default)
 
-Ascending_Order = df.sort_values(by=['Brand'])
+Ascending_Order = df.sort_values(by=['Brand'], inplace=False)
 
 # Sorting by Brand in Descending Order (Default)
 
-Descending_Order = df.sort_values(by=['Brand'], ascending=False)
+Descending_Order = df.sort_values(by=['Brand'], inplace=False, ascending=False)
 
 # Sorting by Year & Price in Ascending Order (Default)
 
-MulCols_Asc_Ord = df.sort_values(by=['Year','Price'])
+MulCols_Asc_Ord = df.sort_values(by=['Year','Price'], inplace=False)
 
 
 print(df)
