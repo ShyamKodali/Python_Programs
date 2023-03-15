@@ -1,5 +1,5 @@
 import pandas as pd
-import numpy as np
+
 
 df = pd.DataFrame({'A': ['John', 'Boby', 'Mina', 'Peter', 'Nicky'],
       'B': ['Masters', 'Graduate', 'Graduate', 'Masters', 'Graduate'],
@@ -13,7 +13,7 @@ tab = pd.pivot_table(df, index =['A', 'B'])
 # Creates a pivot table dataframe
 
 table = pd.pivot_table(df, values ='A', index =['B', 'C'],
-                         columns =['B'], aggfunc = np.sum)
+                         columns =['B'], aggfunc = "sum")
 
 
 print(df)
