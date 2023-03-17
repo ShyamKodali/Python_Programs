@@ -11,7 +11,7 @@ Tok_by_Sent = nltk.sent_tokenize(string)
 print(Tok_by_Sent)
 print('*************************************************************************************************************')
 
-# Tokenizing by sentence 
+# Tokenizing by word 
 
 Tok_by_Word = nltk.word_tokenize(string)
 print(Tok_by_Word)
