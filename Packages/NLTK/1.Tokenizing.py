@@ -1,4 +1,5 @@
 import nltk
+from nltk import sent_tokenize, word_tokenize
 
 string = """A latte is a milk coffee that is a made up of one or two shots of espresso, steamed milk and a final, thin layer of frothed milk on top. 
             If you don't drink dairy milk, you can easily swap it for a plant-based alternative like soy, oat or coconut milk.

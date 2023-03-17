@@ -1,6 +1,6 @@
 import nltk
+from nltk import tokenize 
 from nltk import corpus
-
 
 
 string = ''' Sir, I protest. I am not a merry man!'''
