@@ -13,7 +13,7 @@ tok_string = word_tokenize(string)
 # Parts of Speech for the Tokenized String
 pos_tok_string = pos_tag(tok_string)
 
-# Creating Chunk Grammer
+# Creating Chunk Grammer with only ONE Rule
 # NP - Noun Phrase, DT - Determiner, JJ - Adjective, NN - Noun
 
 chunk_grammer = "NP:{<DT>?<JJ>*<NN>}"
