@@ -45,10 +45,3 @@ print('*************************************************************************
 
 stemmed_string_2 = [stemmer_2.stem(word) for word in Filtered_Tok_by_word]
 print(stemmed_string_2)
-
-
-
-
-
-
-

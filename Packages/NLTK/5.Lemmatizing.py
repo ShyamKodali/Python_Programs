@@ -15,5 +15,3 @@ print('**********************************************************')
 
 Lemmatized_String = [lemmatizer.lemmatize(word) for word in Tokenize_String]
 print(Lemmatized_String)
-
-
