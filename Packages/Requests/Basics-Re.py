@@ -1,10 +1,17 @@
 import requests as re
 
 url = 'https://realpython.com/python-requests/'
-f = re.get(url)
+response = re.get(url)
 
 # Prints text format of the web page
-print(f.text)
+print(response.text)
+print('**************************************************************************************************************')
+
+if response.status_code == 200:
+    print('Success!')
+elif response.status_code == 404:
+    print('Not Found.')
+
 print('**************************************************************************************************************')
 
 
