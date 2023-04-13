@@ -19,9 +19,7 @@ t_names_iris = iris_data.target_names
 f_names_digits = digits_data.feature_names
 t_names_digits = digits_data.target_names
 f_names_houseprice = houseprice_data.feature_names
-#t_names_houseprice = houseprice_data.target_names
 f_names_diabetes = diabetes_data.feature_names
-#t_names_diabetes = diabetes_data.target_names
 f_names_breastcancer = breastcancer_data.feature_names
 t_name_breastcancer = breastcancer_data.target_names
 
@@ -33,10 +31,8 @@ print("Feature names of Digits Data : ", f_names_digits)
 print("Target names of Digits Data : ", t_names_digits)
 print('******************************************************')
 print("Feature names of Boston House Price Data : ", f_names_houseprice)
-#print("Target names of Boston House Price Data : ", t_names_houseprice)
 print('******************************************************')
 print("Feature names Diabetes Data : ", f_names_diabetes)
-#print("Target names Diabetes Data :", t_names_diabetes)
 print('******************************************************')
 print("Feature names Breast Cancer Data : ", f_names_breastcancer)
 print("Target names Breast Cancer Data :", t_name_breastcancer)
