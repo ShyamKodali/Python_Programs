@@ -34,10 +34,26 @@ print('Standard Deviation of the data after Mean Removal : ',mrstddev)
 print('****************************************************************')
 
 
-# Scaling : For Scaling Feature Vector 
+# Scaling : For Scaling Feature Vectors
 
 scaleddata = preprocessing.MinMaxScaler(feature_range=(0,1)).fit_transform(data)
 
 # Above feature_range value = (0,1) which means 
 print('Scaled Data with MinMax Scaler : ',scaleddata)
+print('****************************************************************')
+
+
+# Normalization : For modifying Feature Vectors, so that it can be measured at common scale
+# 
+#     1. L1 Nomrmalization : It modifies the values in such a manner that
+#                             "Sum of absolute values always up to 1 in each row"
+#     2. L2 Nomrmalization : It modifies the values in such a manner that
+#                             "Sum of squares remains always up to 1 in each row"
+
+l1normalization = preprocessing.normalize(data, norm='l1')
+l2normalization = preprocessing.normalize(data, norm='l2')
+
+print('Normalized Data with L1 Normalizer : ',l1normalization)
+print('****************************************************************')
+print('Normalized Data with L2 Normalizer : ',l2normalization)
 print('****************************************************************')
