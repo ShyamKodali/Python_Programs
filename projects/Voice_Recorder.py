@@ -1,3 +1,6 @@
+#pip install sounddevice before importing 
+
+
 import sounddevice 
 import scipy 
 from scipy.io.wavfile import write
